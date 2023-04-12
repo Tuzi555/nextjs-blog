@@ -3,11 +3,17 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "latest",
     "react": "18.2.0",
     "react-dom": "18.2.0"
+  },
+  "devDependencies": {
+    "husky": "^8.0.0",
+    "prettier": "^2.8.7",
+    "pretty-quick": "^3.1.3"
   }
 }
